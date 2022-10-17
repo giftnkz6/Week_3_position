@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50vw;
+    min-height: 100vh;
+    margin: auto;
+    position: relative;
+}
+.school {
+    background-color: darkkhaki;
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+}
+.school p {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
